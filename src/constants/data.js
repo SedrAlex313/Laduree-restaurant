@@ -30,29 +30,29 @@ const wines = [
 
 const cocktails = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'Chapel Hill Shiraz',
+    price: '$56',
+    tags: 'AU | Bottle',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: 'Catena Malbee',
+    price: '$59',
+    tags: 'AU | Bottle',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: 'La Vieillw Rose',
+    price: '$44',
+    tags: 'FR | 750 ml',
   },
   {
-    title: 'Old Fashioned',
+    title: 'Rhino Pale Ale',
     price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    tags: 'CA | 750 ml',
   },
   {
-    title: 'Negroni',
+    title: 'Irish Guinness',
     price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    tags: 'IE | 750 ml',
   },
 ];
 
