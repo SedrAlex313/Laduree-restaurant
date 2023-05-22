@@ -153,3 +153,210 @@
     margin-top: 3rem;
   }
   
+/*----SMALL SCREENS----*/
+
+@media only screen and (min-width: 300px) and (max-width: 575px) {
+
+  .main-image {
+    height: auto;
+  }
+
+  .nav-container {
+    height: 60px;
+    width: 100%;
+  }
+
+  .nav-container button {
+   float: right;
+   margin-right: 10px;
+   padding: 0;
+  }
+
+  .logo {
+    margin-left: 10px;
+    padding-left: 0;
+  }
+
+ .nav-links li {
+    visibility: hidden;
+ }
+
+  .sidebar {
+    visibility: hidden;
+  }
+
+  .overlay-content li {
+    padding: .7rem;
+  }
+
+  .close {
+    float: right;
+    position: relative;
+    margin: 5px;
+    padding: 0;
+    margin-right: 0;
+  }
+  
+  .title {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 6rem;
+    padding-left: 0;
+    font-weight: 500;
+  }
+  
+  .subtitle {
+    font-size: 7rem;
+    text-align: center;
+    padding-left: 0rem;
+    margin-bottom: 5rem;
+  }
+  
+  .welcome-content {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  
+  .mission {
+    padding-left: 1rem;
+    padding-top: 0rem;
+    font-size: 2.5rem;
+  }
+
+  .statement {
+    margin-left: 1rem;
+    padding: 0 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: .9rem;
+  }
+
+  .statement:nth-child(2) {
+    padding-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .welcome-container {
+    gap: 0;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .menu-view {
+    margin-right: 1rem;
+  }
+
+  .welcome-content img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .middle-content {
+    padding-right: 0;
+  }
+
+  .middle-text {
+    font-size: 4rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+
+  .bottom-text {
+    font-size: 3.6rem;
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+  }
+
+  #pic1 {
+    margin-left: 15rem;
+  }
+
+  #pic3 {
+    float: right;
+    margin-left: 0;
+    margin-right: 3rem;
+    margin-top: 2rem; 
+  }
+
+  .menu {
+    grid-template-columns: repeat(1, auto);
+    grid-gap: 0;
+  }
+
+  .menu img {
+    margin-top: .1rem;
+    margin-bottom: 0;
+  }
+
+  .cannoli img {
+    display: none;
+  }
+
+  .dessert {
+    margin-bottom: 0;
+  }
+
+  .image-overlay {
+    font-size: 21px;
+    font-weight: 900;
+    color:#ebdfd4;
+    text-shadow: none;
+    font-family:'Jomolhari', sans-serif;
+    margin-bottom: 0;
+  }
+
+  .footer {
+    padding-top: 3rem;
+    margin-top: -1rem;
+
+  }
+  .footer-content {
+    font-size: 15px;
+    margin-top: 0;
+  }
+  
+  .footer-content-wrap {
+    font-size: 36px;
+  }
+
+  .footer-logo {
+    border-left: none;
+    border-right: none;
+    margin-top: -25px;
+  }
+
+  .footer-menu {
+    padding: 0;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .footer-logo li {
+    margin-bottom: 1rem;
+    padding-bottom: 0;
+    display: block;
+    font-weight: 300;
+  }
+
+  .footer-info {
+    display: none;
+    margin-left: 0;
+    font-size: 9px;
+  }
+
+  .footer-button {
+    display: none;
+  }
+
+  .bottom-footer {
+    padding-top: 1rem;
+    font-size: 8.4px;
+  }
+
+  .bottom-socials a {
+    font-size: 25px;
+    padding: 3px;
+  }
+
+}

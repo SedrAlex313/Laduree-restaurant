@@ -74,40 +74,38 @@ text-align:right;
   .app__aboutus-content_about p{
     margin: 2rem 0;
   }
-  /* @media screen  and (min-width: 2000px){
+  @media screen and (min-width: 2000px) {
     .app__aboutus-content_knife img {
-      height: 1110px;
+        height: 1110px;
     }
-    .app__aboutus-content_history p,
-    .app__aboutus-content_about p{
-    margin: 4rem 0;
-  }
-  }
 
-  @media screen  and (min-width: 900px){
-    .app__aboutus-content{
-      flex-direction: column;
+    .app__aboutus-content_about p,
+    .app__aboutus-content_history p {
+        margin: 4rem 0;
     }
-    .app__aboutus-content_knife{
-      margin:  4rem 0 ;
+}
+
+@media screen and (max-width: 900px) {
+    .app__aboutus-content {
+        flex-direction: column;
     }
-  }
-*/
-  @media screen  and (max-width: 650px){
-    .app__aboutus {
-      background-color: #434745;
-      background-image: url('../../assets/images/pattern.png');
-      width: 100vw;
-      max-width:100%;
-      z-index: 2;
-      height: 620px;
-      max-height: 100%;
+
+    .app__aboutus-content_knife {
+        margin: 4rem 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__aboutus-overlay img {
+        width: 80%;
+        height: 320px;
+    }
+    .app__aboutus-content_knife img{
       position: absolute;
-      left: 0;
-      margin-top: 0.001rem;
-      padding-left: 0;
-      overflow: visible;
-  } 
-  }
-  
+      width: 20px;
+      height: 13px;
+      left: 512px;;
+      top: 45px;
+    }
+}
   
