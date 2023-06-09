@@ -466,15 +466,15 @@ const getTables = _ => {
 
 
   return  <div>
-  <Row  className="text-center align-items-center pizza-cta gx-0">
+  <Row  className="text-center align-items-center rese-cta gx-0">
     <Col>
-      <p className="looking-for-pizza">
+      <p className="looking-for-rese">
         {!selection.table.id ? "Book a Table" : "Confirm Reservation"}
         <i
           className={
             !selection.table.id
-              ? "fas fa-chair pizza-slice"
-              : "fas fa-clipboard-check pizza-slice"
+              ? "fas fa-chair rese-slice"
+              : "fas fa-clipboard-check rese-slice"
           }
         ></i>
       </p>
